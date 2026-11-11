@@ -1,0 +1,49 @@
+:root {
+    --bs-color-primario: #EAF2F8;
+    --bs-color-texto: #1D2D44;
+    --bs-color-footer: #3E5C76;
+    --bs-titulo-font: "Fascinate Inline", system-ui;
+}
+
+body {
+    margin: 0;
+    background-color: var(--bs-color-primario);
+    color: var(--bs-color-texto);
+}
+
+header {
+    background-color: var(--bs-color-texto);
+}
+
+h1, h2, h3 {
+    font-family: var(--bs-titulo-font);
+    color: var(--bs-color-texto);
+}
+
+footer {
+    background-color: var(--bs-color-texto);
+    color: var(--bs-color-primario);
+}
+
+footer a {
+    color: var(--bs-color-primario);
+}
+
+#inicio img {
+    width: 10rem;
+    border-radius: 1rem;
+    box-shadow: var(--bs-color-texto) 1rem 1rem;
+    height: auto;
+}
+
+#inicio div:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.custom-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
